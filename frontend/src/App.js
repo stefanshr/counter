@@ -13,12 +13,9 @@ export default function App() {
     let forceUpdate = useForceUpdate();
 
     async function load() {
-        const result = await axios.get('http://localhost:8080/api/getAmount');
+        const result = await axios.get('http://localhost:8585/api/getAmount');
         amount = result.data
         forceUpdate()
-
-
-
     }
 
 
