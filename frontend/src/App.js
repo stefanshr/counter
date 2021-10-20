@@ -29,6 +29,7 @@ export default function App() {
                     <h1>This page was viewed this many times:</h1>
                     <h2>{amount}</h2>
                 </header>
+                <footer>test</footer>
             </div>
     );
 }
