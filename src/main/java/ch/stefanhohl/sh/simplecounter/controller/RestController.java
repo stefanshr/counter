@@ -17,10 +17,10 @@ import java.util.List;
 @RequestMapping(value = "/api")
 public class RestController {
 
-    int count = 0;
+    long count = 0;
 
     @GetMapping(value = "/getAmount")
-    public int getAmount() {
+    public long getAmount() {
        return count++;
     }
 }
