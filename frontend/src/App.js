@@ -26,14 +26,6 @@ export default function App() {
     return (
             <div className="App">
                 <header className="App-header">
-                    <script async src="https://www.googletagmanager.com/gtag/js?id=G-GNQP1ZDF8G"/>
-                    <script>
-                        window.dataLayer = window.dataLayer || [];
-                        function gtag(){dataLayer.push(arguments);}
-                        gtag('js', new Date());
-
-                        gtag('config', 'G-GNQP1ZDF8G');
-                    </script>
                     <h1>This page was viewed this many times:</h1>
                     <h2>{amount}</h2>
                 </header>
